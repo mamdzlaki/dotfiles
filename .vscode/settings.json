@@ -9,6 +9,8 @@
     },
   },
   "python.testing.pytestArgs": [
+    "-v",
+    "-s",
     "tests"
   ],
   "python.testing.unittestEnabled": false,
