@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: PyTest",
+            "name": "Python: Debug Tests",
             "type": "python",
             "request": "launch",
-            "module": "pytest",
+            "program": "${file}",
             "purpose": ["debug-test"],
             "console": "integratedTerminal",
             "justMyCode": false
